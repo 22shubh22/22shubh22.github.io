@@ -4,7 +4,7 @@ title: Archive
 permalink: /archive/
 ---
 
-This is the archive of the blog *ppiao.github.io*.
+This is the archive of the blog *22shubh22.github.io*.
 
 | Date                                  | Post                                          |
 |---------------------------------------|-----------------------------------------------| {% for post in site.posts %}

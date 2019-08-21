@@ -6,7 +6,7 @@ permalink: /about/
 
 * About me
 
-	* My name is Chen Jingpiao, a student, majoring in Computer Science and Technology.
+	* My name is Shubham Goyal, a student, majoring in Computer Science and Technology.
 	* I am an open source enthusiast.
 
 * About this blog:
@@ -15,6 +15,6 @@ permalink: /about/
 
 * More about me:
 
-	* LinkedIn: [https://www.linkedin.com/in/ppiao][linkedin]
+	* LinkedIn: [https://www.linkedin.com/in/shubham-goyal-183b61124/][linkedin]
 
-[linkedin]: https://www.linkedin.com/in/ppiao
+[linkedin]: https://www.linkedin.com/in/shubham-goyal-183b61124/
