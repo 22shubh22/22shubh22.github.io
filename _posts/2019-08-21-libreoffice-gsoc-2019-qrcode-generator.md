@@ -25,6 +25,7 @@ title: GSoC'19 LibreOffice - QR Code Generation Final Report
     [Make generated QR Code as a perfect square](https://gerrit.libreoffice.org/#/c/76954/)   
     [Fix: Border feature QR Code](https://gerrit.libreoffice.org/#/c/76953/)  
     [Error Correction in QR Code](https://gerrit.libreoffice.org/#/c/76958/)    
+    [Reduce default border value in the QRCode Dialog](https://gerrit.libreoffice.org/#/c/77868/)
 
 * Made QR code Dialog Box callable in LO apps.
 
@@ -34,8 +35,6 @@ title: GSoC'19 LibreOffice - QR Code Generation Final Report
 
     Fix associated with above topic  
     [Right Click the QR code to get edit option](https://gerrit.libreoffice.org/#/c/76957/)    
-
-## Code which didn't got merged.
 
 * Implemented ODF import/export details for our QR code.
 
@@ -55,7 +54,6 @@ title: GSoC'19 LibreOffice - QR Code Generation Final Report
 Now, QR Code can be generated for any text in the LibreOffice. It is one of the big step that QR Code can be made inside LO now which was only possible using extensions.   
 
 The future development of project include using the QR Code feature in areas like mail-merge, and templates.   
-
 To generate a QR Code image in any of writer, impress, calc or draw.
 
 # Using
@@ -79,6 +77,7 @@ Example QR Code generated from above given inputs
 1. QR Code is generated at cursor position.
 2. QR Code can be generated at selected cell.
 3. The QR Code generated is SVG, better rendering and scalablity.
+4. We can edit a existing QR code.
 
 
 # TODO
