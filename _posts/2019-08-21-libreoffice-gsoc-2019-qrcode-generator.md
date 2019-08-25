@@ -34,11 +34,11 @@ title: GSoC'19 LibreOffice - QR Code Generation Final Report
     [Making dialog callable in Impress and Draw](https://gerrit.libreoffice.org/#/c/77438/)  
 
     Fix associated with above topic  
-    [Right Click the QR code to get edit option](https://gerrit.libreoffice.org/#/c/76957/)    
+    [Right Click to get edit QR code option](https://gerrit.libreoffice.org/#/c/76957/)    
 
 * Implemented ODF import/export details for our QR code.
 
-    Our QR Code is generated as shape. It is the ODF(Open Document Foundation) code that helps our QR code to retain the property of QR code when save/load.  
+    Our QR Code is generated as shape. It is the ODF(Open Document Foundation) code that helps our QR code to retain the property of QR code when saved/loaded.  
     Link to work: [ODF changes](https://gerrit.libreoffice.org/#/c/74853/)  
 
 * Bugzilla Ticket: Fixing label length fix UI break
@@ -51,13 +51,13 @@ title: GSoC'19 LibreOffice - QR Code Generation Final Report
 
 ## Final Product
 
-Now, QR Code can be generated for any text in the LibreOffice. It is one of the big step that QR Code can be made inside LO now which was only possible using extensions.   
+Now, QR Code can be generated for any text in the LibreOffice. It is one of the big step now that QR Code can be made inside LO which was earlier possible only through using external extensions.   
 
 The future development of project include using the QR Code feature in areas like mail-merge, and templates.   
-To generate a QR Code image in any of writer, impress, calc or draw.
 
 # Using
 
+To generate a QR Code image in any of writer, impress, calc or draw.
 Goto   **Insert -> QR Code ..**   
 
 A Dialog Box appers
@@ -77,7 +77,7 @@ Example QR Code generated from above given inputs
 1. QR Code is generated at cursor position.
 2. QR Code can be generated at selected cell.
 3. The QR Code generated is SVG, better rendering and scalablity.
-4. We can edit a existing QR code.
+4. We can also edit a existing QR code.
 
 
 # TODO
@@ -95,4 +95,4 @@ Example QR Code generated from above given inputs
 [nayuki's-library]: https://github.com/nayuki/QR-Code-generator
 [tdf#87195]: https://bugs.documentfoundation.org/show_bug.cgi?id=87195
 [GSoC-commit]: https://gerrit.libreoffice.org/#/q/shubham+goyal
-[status-report]: http://document-foundation-mail-archive.969070.n3.nabble.com/template/NamlServlet.jtp?macro=search_page&node=1621684&query=week+report+shubham+goyal&days=0
+[status-report]: http://document-foundation-mail-archive.969070.n3.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=495623

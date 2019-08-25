@@ -19,7 +19,7 @@ permalink: /gsoc-2019
 	* Understand the workflow of open source.
 	* Programming skill.
 	* Debugging skills.
-	* Some tools. ( Make, GDB, etc. )   
+	* Some tools. ( Make, GDB, etc. )    
 
 * Feel about GSoC?
 
