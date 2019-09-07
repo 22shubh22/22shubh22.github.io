@@ -1,16 +1,18 @@
 ---
 layout: post
-title: wrong compilation Output.
+title: Compilation output Mismatch
 ---
+*The Weired thing was my machine was producing the wrong result no the cloud. Is my machine alright :(*   
 
-Hi, here a quickie to show before you a weird experience that I had today.
-I was implementing a binary-search-tree algorithm today and encountered that in my local machine the code was compiled to give me the wrong output.   
 
-Since it is a quickie, I will show you what code it was.
+Hi, here a quickie to show before you a weird experience that I had today.   
+I was implementing a binary-search-tree algorithm today and encountered that in my local machine the code was compiled to give me the wrong output.     
 
-Comments in the code show what the problem is.
+Let's show you what code it was.     
 
-'''
+Comments in the code show what the problem is.   
+
+```
 // Binary Search Tree Implementation
 
 #include <iostream>
@@ -98,7 +100,7 @@ int main()
     insert(root, 12);
     insert(root, 11);
     insert(root, 13);
-    insert(root, 14);
+    insert(root, 14);   
 
     //search element in tree.
     node* mynode; node* parent;
@@ -111,15 +113,14 @@ int main()
     mynode ? cout << "yes" : cout << "no";              // My code should be a nullptr here but it is not.
     /* In the line above, mynode have the value what it was at line 92. Why? */
 }
-'''
+```
 
-Here, at pc, the output is '''yesyes''', even if 22 is not present in the binary search tree.   
+Here, at my local PC, the output is '''yesyes''', even if 22 is not present in the binary search tree.   
 
-Debugging didn't help me much other then making the comments written in the code.   
+Debugging didn't help me much. Just helped me driving the comments written above.
 
 
 When the above code was run at [http://cpp.sh/8hreo](http://cpp.sh/8hreo), it gives correct output that is '''yesno'''.
 
-God May Know what was the matter :)   
-
-Thanks for reading :)  
+Only God may now know why PC gives wrong answer.   
+Is it hardware problem or GCC should be updated.   
