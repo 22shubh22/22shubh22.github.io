@@ -15,6 +15,6 @@ permalink: /about/
 
 * More about me:
 
-	* LinkedIn: [https://www.linkedin.com/in/shubham-goyal-183b61124/][linkedin]
+	* LinkedIn: [https://www.linkedin.com/in/22shubh22/][linkedin]
 
-[linkedin]: https://www.linkedin.com/in/shubham-goyal-183b61124/
+[linkedin]: https://www.linkedin.com/in/22shubh22/
