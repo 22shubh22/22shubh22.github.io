@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Compilation output Mismatch
+title: Compilation output Mismatch?
 ---
 *The Weired thing was my machine was producing the wrong result no the cloud. Is my machine alright :(*   
 
 
 Hi, here a quickie to show before you a weird experience that I had today.   
-I was implementing a binary-search-tree algorithm today and encountered that in my local machine the code was compiled to give me the wrong output.     
+I was implementing a binary-search-tree algorithm today and encountered that in my local machine the code compiled to give me a wrong output.     
 
-Let's show you what code it was.     
+Let me show you what code it was.     
 
 Comments in the code show what the problem is.   
 
